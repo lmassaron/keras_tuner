@@ -6,25 +6,25 @@ This project demonstrates how to use Keras Tuner with Bayesian Optimization to f
 
 ## 📝 Table of Contents
 - [Keras Tuner: Bayesian Optimization for Neural Architecture Search](#keras-tuner-bayesian-optimization-for-neural-architecture-search)
-  - [📝 Table of Contents](#-table-of-contents)
-  - [🧐 About the Project](#-about-the-project)
-  - [🚀 Getting Started](#-getting-started)
+  - [Table of Contents](#-table-of-contents)
+  - [About the Project](#-about-the-project)
+  - [Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Usage](#usage)
-  - [🤖 Model Architecture](#-model-architecture)
-  - [🛠️ Hyperparameter Tuning](#️-hyperparameter-tuning)
-  - [🤝 Contributing](#-contributing)
-  - [📄 License](#-license)
+  - [Model Architecture](#-model-architecture)
+  - [Hyperparameter Tuning](#️-hyperparameter-tuning)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 
-## 🧐 About the Project
+## About the Project
 
 This project provides a hands-on example of using Keras Tuner to automate the search for the optimal neural network architecture. It uses a sentiment analysis task on the IMDB dataset to showcase the power of Bayesian Optimization in hyperparameter tuning.
 
 The `keras-tuner.ipynb` notebook contains the full code, from data preprocessing to model definition, tuning, and evaluation.
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
 
@@ -57,12 +57,12 @@ This project requires Python 3 and the following libraries:
 The main code is in the `keras-tuner.ipynb` Jupyter Notebook. You can open it and run the cells sequentially to:
 
 1.  Load and preprocess the IMDB dataset.
-2.  Define the model building function with tunable hyperparameters.
+2.  Define the model-building function with tunable hyperparameters.
 3.  Instantiate the Keras Tuner with the Bayesian Optimization algorithm.
 4.  Run the hyperparameter search.
 5.  Retrieve the best model and evaluate its performance.
 
-## 🤖 Model Architecture
+## Model Architecture
 
 The neural network architecture is defined in the `create_tunable_model` function. It consists of:
 
@@ -74,7 +74,7 @@ The neural network architecture is defined in the `create_tunable_model` functio
 
 The number of layers, units, dropout rates, and other parameters are defined as hyperparameters to be tuned by Keras Tuner.
 
-## 🛠️ Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Keras Tuner is used to find the best combination of hyperparameters for the model. The following tuners are available:
 
@@ -83,10 +83,6 @@ Keras Tuner is used to find the best combination of hyperparameters for the mode
 -   `BayesianOptimization`
 
 This project uses `BayesianOptimization` to efficiently search the hyperparameter space. The search space is defined in the `create_tunable_model` function using `hp.Int`, `hp.Float`, and `hp.Choice`.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
 ## License
 
