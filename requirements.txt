@@ -1,0 +1,7 @@
+tensorflow==2.3.1
+keras-tuner
+tensorflow-addons
+scikit-learn
+matplotlib
+numpy
+pandas
