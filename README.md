@@ -4,7 +4,7 @@ This project demonstrates how to use Keras Tuner with Bayesian Optimization to f
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lmassaron/keras_tuner/blob/main/keras-tuner.ipynb)
 
-## 📝 Table of Contents
+## Table of Contents
 - [Keras Tuner: Bayesian Optimization for Neural Architecture Search](#keras-tuner-bayesian-optimization-for-neural-architecture-search)
   - [Table of Contents](#-table-of-contents)
   - [About the Project](#-about-the-project)
