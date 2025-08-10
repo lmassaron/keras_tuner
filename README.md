@@ -88,6 +88,6 @@ This project uses `BayesianOptimization` to efficiently search the hyperparamete
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
